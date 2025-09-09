@@ -1,0 +1,136 @@
+body{
+    background-color: #0c3035;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0%;
+}
+header{
+    background-color: #102438;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+nav a{
+    color: white;
+    text-decoration:none ;
+    font-weight: bolder;
+    margin: 0% 10px;
+}
+nav a:hover{
+    color: rgb(28, 21, 86);
+}
+.hero{
+    background-image: url"https://picsum.photos/1200/400?photos" 
+    color: rgb(254, 254, 255);
+    padding:60px 25px ;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    justify-content: space-between; flex-wrap: wrap;
+}
+.cards{
+    flex: 1;
+    border-radius: 10px;
+    background-color: rgb(9, 40, 73);
+    box-shadow:0px 5px 11px rgb(32, 33, 76);
+    padding: 20px;
+    min-width: 250px;
+    transition: all 0.5px;
+}
+.cards:hover{
+    transform: translateY(15px);
+    background-color: rgb(21, 11, 67);
+}
+.feedback{
+    display: flex;gap: 20px;
+    padding: 30px;
+    justify-content: space-between; flex-wrap: wrap;
+}
+.unique{
+    flex: 1;
+    border-radius: 10px;
+    background-color: rgb(9, 40, 73);
+    box-shadow:0px 5px 11px rgb(32, 33, 76);
+    padding: 20px;
+    min-width: 250px;
+    transition: all 0.5px;
+    margin:10px;
+    gap:20px;
+}
+.unique:hover{
+    transform: translateY(15px);
+    background-color: rgb(32, 33, 76);
+}
+.contact{
+    background: #0c3035;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+.contact button{
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+footer{
+    background-color: #2c3e50;
+    text-align: center;
+    color: rgb(11, 29, 83);
+    margin-top: 20px;
+}
+.gallery{
+    display:grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+figure{
+    max-width: 400px;
+}
+figure img{
+    border-radius: 30px;
+}
+figcaption{
+    text-align: center;
+    font-weight: bolder;
+}
+.heroine{
+    text-align: center; font-size: 24px;
+}
+.button:hover{
+    background-color: rgb(8, 70, 75); color: black;
+}
+.grid{
+    display: grid;grid-template-columns: 1fr 2fr;
+    gap: 10px; padding: 20px; min-height: 27vh;
+}
+.sidework{
+    background-color: rgb(32, 33, 76); border-radius: 20px;
+    box-shadow: 0 5px 13px black; padding: 13px; 
+}
+.sidework h2{
+    text-align: center;
+}
+.booking{
+    display:grid; place-items: center;
+    background-color: rgb(32, 33, 76); border-radius: 10px;
+    box-shadow: 0 5px 13px black;
+}
+.booking-form{
+    display: grid;gap: 20 px; width: 100%;
+}
+.booking-form input, .booking-form textarea{
+    border-radius: 10px; padding: 20px;
+    border: 1px solid #17033b; margin: 10px;
+}
+.submit button{
+    background-color: #102438; color: rgb(11, 29, 83); 
+    padding: 20px; border-radius: 10px; font-weight: bold;
+    font-size: 20px; margin-bottom: bold;
+    justify-content: center;
+}
